@@ -1,0 +1,11 @@
+@"
+venv/
+__pycache__/
+*.pyc
+*.log
+*.csv
+*.pdf
+.env
+.DS_Store
+logs/*.log
+"@ | Set-Content -Path .gitignore -Encoding UTF8
