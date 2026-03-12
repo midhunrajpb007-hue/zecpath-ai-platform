@@ -1,0 +1,134 @@
+{
+  "timestamp": "2026-03-09T12:48:11.365128",
+  "thresholds": {
+    "shortlist": 70,
+    "review": 50
+  },
+  "summary": {
+    "total_candidates": 10,
+    "shortlisted": 4,
+    "review_zone": 3,
+    "rejected": 3,
+    "top_score": 96.5,
+    "bottom_score": 38.2,
+    "average_score": 66.65
+  },
+  "candidates": [
+    {
+      "candidate_id": "C001",
+      "name": "midhun raj",
+      "score": 96.5,
+      "skills": [
+        "Python",
+        "Django",
+        "React"
+      ],
+      "experience": 5,
+      "status": "SHORTLISTED"
+    },
+    {
+      "candidate_id": "C005",
+      "name": "jithin sam",
+      "score": 91.2,
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "Pandas"
+      ],
+      "experience": 6,
+      "status": "SHORTLISTED"
+    },
+    {
+      "candidate_id": "C003",
+      "name": "tiby tomy",
+      "score": 82.3,
+      "skills": [
+        "Java",
+        "Spring",
+        "SQL"
+      ],
+      "experience": 4,
+      "status": "SHORTLISTED"
+    },
+    {
+      "candidate_id": "C008",
+      "name": "Fiona Green",
+      "score": 78.9,
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL"
+      ],
+      "experience": 4,
+      "status": "SHORTLISTED"
+    },
+    {
+      "candidate_id": "C004",
+      "name": "abin tom",
+      "score": 67.5,
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node"
+      ],
+      "experience": 3,
+      "status": "REVIEW"
+    },
+    {
+      "candidate_id": "C009",
+      "name": "George King",
+      "score": 62.4,
+      "skills": [
+        "Java",
+        "Spring"
+      ],
+      "experience": 3,
+      "status": "REVIEW"
+    },
+    {
+      "candidate_id": "C006",
+      "name": "Diana Prince",
+      "score": 55.0,
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "experience": 2,
+      "status": "REVIEW"
+    },
+    {
+      "candidate_id": "C010",
+      "name": "Hannah Lee",
+      "score": 49.7,
+      "skills": [
+        "JavaScript",
+        "React"
+      ],
+      "experience": 2,
+      "status": "REJECTED"
+    },
+    {
+      "candidate_id": "C002",
+      "name": "adarsh ",
+      "score": 44.8,
+      "skills": [
+        "Python",
+        "Flask"
+      ],
+      "experience": 2,
+      "status": "REJECTED"
+    },
+    {
+      "candidate_id": "C007",
+      "name": "Evan Wright",
+      "score": 38.2,
+      "skills": [
+        "Excel",
+        "Word"
+      ],
+      "experience": 1,
+      "status": "REJECTED"
+    }
+  ]
+}

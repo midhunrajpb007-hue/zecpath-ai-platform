@@ -1,0 +1,17 @@
+
+    Jane    Smith
+    Email:   jane.smith@email.com   
+    Phone:   9876543211
+    
+    Skills:   Python  ,  Java  ,  Spring ,  SQL  
+    
+    Experience-
+    Developer at Amazon
+    (2019-2022)
+    - Built microservices
+    - API development
+    
+    Education:
+    M.Sc Computer Sci-
+    ence, XYZ Institute, 2019
+    

@@ -1,0 +1,62 @@
+{
+  "education": [
+    {
+      "degree": "B.Tech Computer Science",
+      "field": "Computer Science",
+      "level": "Bachelor"
+    },
+    {
+      "field": "Computer Science",
+      "institution": "Abc University, 2020",
+      "year": 2020
+    },
+    {
+      "degree": "M.Sc In Data",
+      "level": "Master"
+    },
+    {
+      "field": "Computer Science",
+      "institution": "Xyz Institute, 2022",
+      "year": 2022
+    },
+    {
+      "field": "Business"
+    },
+    {
+      "degree": "Master Certified",
+      "level": "Master"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Developer Associate",
+      "category": "Aws",
+      "confidence": 85
+    },
+    {
+      "name": "Google Cloud Fundamentals",
+      "category": "Google",
+      "confidence": 85
+    },
+    {
+      "name": "Project Management Professional (PMP)",
+      "category": "Pmp",
+      "confidence": 85
+    },
+    {
+      "name": "Scrum Master Certified",
+      "category": "Scrum",
+      "confidence": 85
+    },
+    {
+      "name": "Sc In Data Science\n    Xyz Institute, 2022\n    \n    Certifications\n    Aws Certified Developer Associate\n    Google Cloud Fundamentals\n    Project Management Professional (Pmp)\n    Scrum Master Certified\n    \n    Work Experience\n    Software Engineer At Google (2022-Present)",
+      "category": "Aws",
+      "confidence": 85
+    }
+  ],
+  "relevance_score": 62,
+  "metadata": {
+    "parsed_at": "2026-02-16T19:23:57.011255",
+    "version": "1.0"
+  }
+}

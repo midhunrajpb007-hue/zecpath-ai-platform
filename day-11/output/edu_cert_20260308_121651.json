@@ -1,0 +1,35 @@
+{
+  "education": [
+    {
+      "degree": "B.Tech Computer Science,",
+      "field": "Computer Science",
+      "institution": "B.Tech Computer Science, Abc University, 2020",
+      "year": 2020,
+      "level": "Bachelor"
+    },
+    {
+      "degree": "M.Sc Data Science,",
+      "field": "Computer Science",
+      "institution": "M.Sc Data Science, Xyz Institute, 2022",
+      "year": 2022,
+      "level": "Master"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Project Management Professional (PMP)",
+      "category": "PMP",
+      "confidence": 85
+    },
+    {
+      "name": "Scrum Master Certified",
+      "category": "SCRUM",
+      "confidence": 85
+    }
+  ],
+  "relevance_score": 100,
+  "metadata": {
+    "parsed_at": "2026-03-08T12:16:51.769942",
+    "version": "1.0"
+  }
+}

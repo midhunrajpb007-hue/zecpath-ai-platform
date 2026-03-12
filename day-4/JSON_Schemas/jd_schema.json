@@ -1,0 +1,12 @@
+﻿{
+  "job_profile": {
+    "job_id": "string",
+    "title": "string",
+    "company": "string",
+    "required_skills": ["string"],
+    "preferred_skills": ["string"],
+    "min_experience": "number",
+    "education_required": "string",
+    "certifications_preferred": ["string"]
+  }
+}

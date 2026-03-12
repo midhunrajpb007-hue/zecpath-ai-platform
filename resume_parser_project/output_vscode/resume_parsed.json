@@ -1,0 +1,20 @@
+{
+  "name": "John Doe",
+  "email": "john@email.com",
+  "phone": "1234567890",
+  "skills": [
+    "Python",
+    "JavaScript",
+    "React",
+    "SQL"
+  ],
+  "experience": [
+    "Software Engineer at ABC Company (2020-2023)",
+    "Junior Developer at Startup (2018-2020)"
+  ],
+  "education": "B.Tech Computer Science - XYZ University",
+  "projects": [
+    "E-commerce Website",
+    "Portfolio Tracker"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Resume Upload Request",
+  "type": "object",
+  "required": ["file", "job_id"],
+  "properties": {
+    "file": {
+      "type": "string",
+      "format": "binary",
+      "description": "Resume file (PDF or DOCX, max 10MB)"
+    },
+    "job_id": {
+      "type": "string",
+      "pattern": "^JOB-\\d{4}-\\d{3}$",
+      "description": "Job identifier"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": ["web", "mobile", "email"],
+          "default": "web"
+        }
+      }
+    }
+  }
+}

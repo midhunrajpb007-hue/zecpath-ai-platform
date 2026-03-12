@@ -1,0 +1,68 @@
+[
+  {
+    "jd_number": 1,
+    "role": "Ethical Hacking Intern",
+    "experience": "0-1 years (Intern)",
+    "skills_found": [
+      "linux (technical)",
+      "windows (technical)",
+      "networking (technical)",
+      "tcp/ip (technical)",
+      "dns (technical)",
+      "nmap (tools)",
+      "burp suite (tools)",
+      "metasploit (tools)",
+      "kali linux (tools)"
+    ],
+    "tools_mentioned": [
+      "Nmap",
+      "Burp Suite",
+      "Metasploit",
+      "Kali Linux"
+    ],
+    "has_certification_requirement": false,
+    "has_clearance_requirement": false,
+    "is_remote_possible": false,
+    "parsed_timestamp": "2026-02-09 12:48:03",
+    "text_preview": "1. Ethical Hacking Intern – Job Description  Role Overview  The Ethical Hacking Intern assists senio..."
+  },
+  {
+    "jd_number": 2,
+    "role": "Cyber Security Intern",
+    "experience": "0-1 years (Intern)",
+    "skills_found": [],
+    "tools_mentioned": [],
+    "has_certification_requirement": false,
+    "has_clearance_requirement": false,
+    "is_remote_possible": false,
+    "parsed_timestamp": "2026-02-09 12:48:03",
+    "text_preview": "2. Cyber Security Intern – Job Description  Role Overview  The Cyber Security Intern supports securi..."
+  },
+  {
+    "jd_number": 3,
+    "role": "Ethical Hacker",
+    "experience": "Experience not specified",
+    "skills_found": [
+      "python (technical)",
+      "linux (technical)",
+      "windows (technical)",
+      "networking (technical)",
+      "nmap (tools)",
+      "burp suite (tools)",
+      "metasploit (tools)",
+      "kali linux (tools)",
+      "owasp (methodologies)"
+    ],
+    "tools_mentioned": [
+      "Nmap",
+      "Burp Suite",
+      "Metasploit",
+      "Kali Linux"
+    ],
+    "has_certification_requirement": false,
+    "has_clearance_requirement": false,
+    "is_remote_possible": false,
+    "parsed_timestamp": "2026-02-09 12:48:03",
+    "text_preview": "10. Ethical Hacker – Job Description  Role Overview  An Ethical Hacker legally simulates cyberattack..."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "role": "Ethical Hacker",
+    "skills": [
+      "Python",
+      "Linux",
+      "Networking"
+    ],
+    "experience": "1-3 years",
+    "status": "parsed"
+  },
+  {
+    "id": 2,
+    "role": "Penetration Tester",
+    "skills": [
+      "Burp Suite",
+      "Metasploit",
+      "Nmap"
+    ],
+    "experience": "2-4 years",
+    "status": "parsed"
+  }
+]

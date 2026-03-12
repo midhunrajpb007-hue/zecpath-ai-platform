@@ -1,0 +1,15 @@
+
+    midhun raj
+    Email: midhunraj@email.com
+    Phone: 9037095458
+    
+    Skills: Python, JavaScript, React, Node.js, SQL
+    
+    Experience:
+    Software Engineer at Google (2020-2023)
+    - Developed web applications
+    - Led team of 5 developers
+    
+    Education:
+    B.Tech Computer Science, ABC University, 2020
+    

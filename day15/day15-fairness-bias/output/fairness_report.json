@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-03-09T12:53:54.161946",
+  "total_candidates": 3,
+  "bias_analysis": {
+    "total_resumes": 3,
+    "personal_attributes_found": {
+      "name": 3,
+      "email": 3,
+      "phone": 3,
+      "address": 1
+    },
+    "institution_variety": 3,
+    "location_variety": 0,
+    "gender_indicators": 0,
+    "recommendations": [
+      "Mask personal attributes like name, email, phone, address",
+      "Consider candidates from diverse locations"
+    ]
+  },
+  "normalization_stats": {
+    "personal_attributes_masked": 0
+  },
+  "recommendations": [],
+  "original_scores": [
+    85,
+    72,
+    78
+  ],
+  "normalized_scores_minmax": [
+    100.0,
+    0.0,
+    46.15
+  ],
+  "normalized_scores_zscore": [
+    100.0,
+    0.0,
+    46.15
+  ],
+  "normalized_scores_rank": [
+    100.0,
+    0.0,
+    50.0
+  ]
+}

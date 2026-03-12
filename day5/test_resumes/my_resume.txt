@@ -1,0 +1,24 @@
+MIDHUN RAJ P B
+Software Developer
+
+CONTACT:
+Email: midhunrajpb007@gmail.com
+Phone: 9037095458
+
+SKILLS:
+- Python, JavaScript, React
+- Node.js, MongoDB, SQL
+- Git, Docker, AWS
+
+EXPERIENCE:
+Software Developer (2023-Present)
+- Web development using MERN stack
+- API development and integration
+
+EDUCATION:
+B.Tech Computer Science
+ABC University (2019-2023)
+
+PROJECTS:
+Project 1: E-commerce Website
+Project 2: Task Management App

@@ -1,0 +1,378 @@
+openapi: 3.0.0
+info:
+  title: Zecpath ATS AI API
+  description: API for Resume Upload, Parsing, Scoring, and Shortlisting
+  version: 1.0.0
+  contact:
+    name: Midhun
+    email: midhun@zecpath.com
+
+servers:
+  - url: https://api.zecpath.com/v1
+    description: Production server
+  - url: https://staging-api.zecpath.com/v1
+    description: Staging server
+
+tags:
+  - name: Resume
+    description: Resume upload and management
+  - name: Parsing
+    description: Resume parsing operations
+  - name: Scoring
+    description: ATS scoring operations
+  - name: Shortlisting
+    description: Candidate shortlisting
+  - name: Jobs
+    description: Async job management
+
+components:
+  schemas:
+    Error:
+      type: object
+      properties:
+        code:
+          type: string
+          example: "RESUME_001"
+        message:
+          type: string
+          example: "Invalid file format. Only PDF and DOCX allowed."
+        details:
+          type: string
+          example: "Uploaded file was .jpg"
+
+    ResumeUploadRequest:
+      type: object
+      required:
+        - file
+        - job_id
+      properties:
+        file:
+          type: string
+          format: binary
+          description: Resume file (PDF or DOCX)
+        job_id:
+          type: string
+          example: "JOB-2025-001"
+        metadata:
+          type: object
+          properties:
+            source:
+              type: string
+              enum: [web, mobile, email]
+              default: web
+
+    ResumeUploadResponse:
+      type: object
+      properties:
+        resume_id:
+          type: string
+          example: "RES-abc123xyz"
+        status:
+          type: string
+          enum: [uploaded, processing, completed, failed]
+        message:
+          type: string
+          example: "Resume uploaded successfully"
+        job_id:
+          type: string
+
+    ParsingRequest:
+      type: object
+      required:
+        - resume_id
+      properties:
+        resume_id:
+          type: string
+          example: "RES-abc123xyz"
+        model_version:
+          type: string
+          example: "v2.1.0"
+        options:
+          type: object
+          properties:
+            extract_skills:
+              type: boolean
+              default: true
+            extract_experience:
+              type: boolean
+              default: true
+            extract_education:
+              type: boolean
+              default: true
+
+    ParsedResume:
+      type: object
+      properties:
+        resume_id:
+          type: string
+        candidate_name:
+          type: string
+        skills:
+          type: array
+          items:
+            type: string
+        experience:
+          type: array
+          items:
+            type: object
+            properties:
+              company:
+                type: string
+              role:
+                type: string
+              duration:
+                type: string
+        education:
+          type: array
+          items:
+            type: object
+            properties:
+              degree:
+                type: string
+              institution:
+                type: string
+              year:
+                type: integer
+        certifications:
+          type: array
+          items:
+            type: string
+
+    ScoringRequest:
+      type: object
+      required:
+        - resume_id
+        - job_id
+      properties:
+        resume_id:
+          type: string
+        job_id:
+          type: string
+        weights:
+          type: object
+          properties:
+            skill_weight:
+              type: number
+              default: 0.5
+            exp_weight:
+              type: number
+              default: 0.3
+            edu_weight:
+              type: number
+              default: 0.2
+
+    ScoreResponse:
+      type: object
+      properties:
+        score_id:
+          type: string
+        resume_id:
+          type: string
+        job_id:
+          type: string
+        ats_score:
+          type: number
+          example: 87.5
+        components:
+          type: object
+          properties:
+            skill_match:
+              type: number
+            experience_match:
+              type: number
+            education_match:
+              type: number
+        status:
+          type: string
+          enum: [shortlisted, review, rejected]
+
+    ShortlistRequest:
+      type: object
+      required:
+        - job_id
+      properties:
+        job_id:
+          type: string
+        threshold:
+          type: number
+          default: 70
+        limit:
+          type: integer
+          default: 10
+
+    ShortlistResponse:
+      type: object
+      properties:
+        job_id:
+          type: string
+        shortlisted_count:
+          type: integer
+        candidates:
+          type: array
+          items:
+            type: object
+            properties:
+              resume_id:
+                type: string
+              candidate_name:
+                type: string
+              ats_score:
+                type: number
+              status:
+                type: string
+        generated_at:
+          type: string
+          format: date-time
+
+    JobStatusResponse:
+      type: object
+      properties:
+        job_id:
+          type: string
+        status:
+          type: string
+          enum: [pending, processing, completed, failed]
+        progress:
+          type: integer
+          minimum: 0
+          maximum: 100
+        result_url:
+          type: string
+        error:
+          type: string
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+security:
+  - bearerAuth: []
+
+paths:
+  /resume/upload:
+    post:
+      tags:
+        - Resume
+      summary: Upload a resume file
+      operationId: uploadResume
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/ResumeUploadRequest'
+      responses:
+        '202':
+          description: Resume accepted for processing
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResumeUploadResponse'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '413':
+          description: File too large (>10MB)
+
+  /resume/{resume_id}/parse:
+    post:
+      tags:
+        - Parsing
+      summary: Parse a resume
+      operationId: parseResume
+      parameters:
+        - name: resume_id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ParsingRequest'
+      responses:
+        '200':
+          description: Resume parsed successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ParsedResume'
+        '202':
+          description: Parsing job accepted (async)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobStatusResponse'
+        '404':
+          description: Resume not found
+
+  /score:
+    post:
+      tags:
+        - Scoring
+      summary: Calculate ATS score for resume
+      operationId: calculateScore
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ScoringRequest'
+      responses:
+        '200':
+          description: Score calculated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScoreResponse'
+
+  /job/{job_id}/shortlist:
+    post:
+      tags:
+        - Shortlisting
+      summary: Generate shortlist for a job
+      operationId: generateShortlist
+      parameters:
+        - name: job_id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ShortlistRequest'
+      responses:
+        '200':
+          description: Shortlist generated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ShortlistResponse'
+
+  /jobs/{job_id}/status:
+    get:
+      tags:
+        - Jobs
+      summary: Get async job status
+      operationId: getJobStatus
+      parameters:
+        - name: job_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Job status
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobStatusResponse'

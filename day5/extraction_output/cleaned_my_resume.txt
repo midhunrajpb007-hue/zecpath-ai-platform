@@ -1,0 +1,29 @@
+RESUME TEXT EXTRACTION OUTPUT
+============================================================
+
+Original file: my_resume.txt
+Processed: 2026-02-24 17:25:14
+Original size: 424 characters
+Cleaned size: 472 characters
+Reduction: -48 characters (-11.3%)
+============================================================
+
+MIDHUN RAJ P B Software Developer 
+CONTACT INFORMATION:
+: Email:  EMAIL_PROTECTED  Phone:  PHONE_PROTECTED  
+TECHNICAL SKILLS:
+: 
+• Python, JavaScript, React 
+• Node.js, MongoDB, SQL 
+• Git, Docker, AWS 
+WORK EXPERIENCE:
+: Software Developer (2023
+• Present) 
+• Web development using MERN stack 
+• API development and integration 
+EDUCATION:
+: B.Tech Computer Science ABC University (2019
+• 2023) 
+PROJECTS:
+: Project 1: E
+• commerce Website Project 2: Task Management App

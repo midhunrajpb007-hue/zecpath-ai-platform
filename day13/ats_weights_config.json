@@ -1,0 +1,6 @@
+{
+  "skill_weight": 0.4,
+  "exp_weight": 0.3,
+  "edu_weight": 0.2,
+  "semantic_weight": 0.1
+}

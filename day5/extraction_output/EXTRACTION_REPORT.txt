@@ -1,0 +1,27 @@
+RESUME TEXT EXTRACTION ENGINE - PROCESSING REPORT
+======================================================================
+
+Report generated: 2026-02-24 17:25:14
+Total files processed: 1
+
+SUMMARY:
+----------------------------------------------------------------------
+Filename                       Original     Cleaned      Reduction    %     
+----------------------------------------------------------------------
+my_resume.txt                  424          472          -48          -11.3 
+----------------------------------------------------------------------
+TOTAL                          424          472          -48          -11.3 
+
+TEXT CLEANING PROCESS APPLIED:
+----------------------------------------------------------------------
+1. Extra whitespace removal
+2. Privacy protection (email/phone masking)
+3. Section header standardization
+4. Bullet point normalization
+5. Special character cleaning
+6. Formatting normalization
+
+OUTPUT FILES:
+----------------------------------------------------------------------
+• cleaned_my_resume.txt
+• EXTRACTION_REPORT.txt

@@ -1,0 +1,58 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                    ATS ENGINE ARCHITECTURE                       ║
+╚══════════════════════════════════════════════════════════════════╝
+
+                      ┌─────────────────────┐
+                      │    RESUME INPUT     │
+                      │  (PDF / DOCX / TXT) │
+                      └──────────┬──────────┘
+                                 │
+                                 ▼
+                      ┌─────────────────────┐
+                      │  TEXT EXTRACTION    │
+                      │  • extract_text()   │
+                      │  • Caching (70% 
+                            faster)│
+                      └──────────┬──────────┘
+                                 │
+                                 ▼
+                      ┌─────────────────────┐
+                      │  ENTITY DETECTION   │
+                      │  • Emails, Phones   │
+                      │  • Skills (regex)   │
+                      │  • Experience years │
+                      └──────────┬──────────┘
+                                 │
+                                 ▼
+                      ┌─────────────────────┐
+                      │    NORMALIZATION    │
+                      │  • Clean text       │
+                      │  • Remove noise     │
+                      │  •Standardize format│
+                      └──────────┬──────────┘
+                                 │
+                                 ▼
+                      ┌─────────────────────┐
+                      │     ATS SCORING     │
+                      │  • Skill (50%)      │
+                      │  • Experience (30%) │
+                      │  • Education (10%)  │
+                      │  • Semantic (10%)   │
+                      └──────────┬──────────┘
+                                 │
+                                 ▼
+                      ┌─────────────────────┐
+                      │     RANKING         │
+                      │  • Sort by score    │
+                      │  • Shortlist ≥70    │
+                      │  • Review 50-69     │
+                      │  • Reject <50       │
+                      └──────────┬──────────┘
+                                 │
+                                 ▼
+                      ┌─────────────────────┐
+                      │    OUTPUT           │
+                      │ • CSV / JSON        │
+                      │ • Ranked candidates │
+                      │ • Performance report│
+                      └─────────────────────┘
