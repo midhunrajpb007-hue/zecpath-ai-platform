@@ -1,0 +1,41 @@
+{
+  "software_engineer": {
+    "min_ats_score": 75,
+    "mandatory_skills": [
+      "Python",
+      "SQL"
+    ],
+    "min_experience_years": 2,
+    "max_experience_years": 8,
+    "allowed_locations": [
+      "Bangalore",
+      "Pune",
+      "Any"
+    ],
+    "availability_required": true
+  },
+  "data_scientist": {
+    "min_ats_score": 80,
+    "mandatory_skills": [
+      "Python",
+      "Machine Learning"
+    ],
+    "min_experience_years": 3,
+    "max_experience_years": 10,
+    "allowed_locations": [
+      "Bangalore",
+      "Any"
+    ],
+    "availability_required": true
+  },
+  "default": {
+    "min_ats_score": 70,
+    "mandatory_skills": [],
+    "min_experience_years": 0,
+    "max_experience_years": 99,
+    "allowed_locations": [
+      "Any"
+    ],
+    "availability_required": false
+  }
+}

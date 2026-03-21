@@ -1,0 +1,123 @@
+{
+  "summary": {
+    "generated_at": "2026-03-21T21:26:50.543969",
+    "total_candidates": 5,
+    "eligible": 1,
+    "review": 2,
+    "rejected": 2,
+    "by_role": {
+      "software_engineer": {
+        "eligible": 1,
+        "review": 2,
+        "rejected": 2
+      }
+    }
+  },
+  "decisions": [
+    {
+      "candidate_id": "C001",
+      "job_role": "software_engineer",
+      "ats_score": 96.5,
+      "checks": {
+        "score": true,
+        "skills": true,
+        "experience": true,
+        "location": true,
+        "availability": true
+      },
+      "decision": "ELIGIBLE",
+      "reasons": [
+        "ATS score 96.5 \u2265 75",
+        "All mandatory skills present",
+        "Experience OK (4 years)",
+        "Any location allowed",
+        "Candidate available"
+      ],
+      "evaluated_at": "2026-03-21T21:26:50.536119"
+    },
+    {
+      "candidate_id": "C002",
+      "job_role": "software_engineer",
+      "ats_score": 44.8,
+      "checks": {
+        "score": false,
+        "skills": false,
+        "experience": true,
+        "location": true,
+        "availability": true
+      },
+      "decision": "REJECTED",
+      "reasons": [
+        "ATS score 44.8 < 75",
+        "Missing mandatory skills: ['SQL']",
+        "Experience OK (2 years)",
+        "Any location allowed",
+        "Candidate available"
+      ],
+      "evaluated_at": "2026-03-21T21:26:50.536739"
+    },
+    {
+      "candidate_id": "C003",
+      "job_role": "software_engineer",
+      "ats_score": 82.3,
+      "checks": {
+        "score": true,
+        "skills": false,
+        "experience": true,
+        "location": true,
+        "availability": false
+      },
+      "decision": "REVIEW",
+      "reasons": [
+        "ATS score 82.3 \u2265 75",
+        "Missing mandatory skills: ['Python']",
+        "Experience OK (4 years)",
+        "Any location allowed",
+        "Candidate not available"
+      ],
+      "evaluated_at": "2026-03-21T21:26:50.537736"
+    },
+    {
+      "candidate_id": "C004",
+      "job_role": "software_engineer",
+      "ats_score": 67.5,
+      "checks": {
+        "score": false,
+        "skills": false,
+        "experience": true,
+        "location": true,
+        "availability": true
+      },
+      "decision": "REJECTED",
+      "reasons": [
+        "ATS score 67.5 < 75",
+        "Missing mandatory skills: ['Python', 'SQL']",
+        "Experience OK (3 years)",
+        "Any location allowed",
+        "Candidate available"
+      ],
+      "evaluated_at": "2026-03-21T21:26:50.538806"
+    },
+    {
+      "candidate_id": "C005",
+      "job_role": "software_engineer",
+      "ats_score": 91.2,
+      "checks": {
+        "score": true,
+        "skills": false,
+        "experience": true,
+        "location": true,
+        "availability": true
+      },
+      "decision": "REVIEW",
+      "reasons": [
+        "ATS score 91.2 \u2265 75",
+        "Missing mandatory skills: ['SQL']",
+        "Experience OK (6 years)",
+        "Any location allowed",
+        "Candidate available"
+      ],
+      "evaluated_at": "2026-03-21T21:26:50.539751"
+    }
+  ]
+}
