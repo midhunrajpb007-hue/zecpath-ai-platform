@@ -1,0 +1,218 @@
+[
+  {
+    "role": "Software Engineer",
+    "category": "introduction",
+    "question": "Tell me about yourself and your career background.",
+    "answer_type": "free_text",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Software Engineer",
+    "category": "education",
+    "question": "What is your highest educational qualification?",
+    "answer_type": "text",
+    "mandatory": true,
+    "score_importance": "medium"
+  },
+  {
+    "role": "Software Engineer",
+    "category": "experience",
+    "question": "How many years of experience do you have in software development?",
+    "answer_type": "number",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Software Engineer",
+    "category": "skills",
+    "question": "What programming languages and frameworks are you proficient in?",
+    "answer_type": "list",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Software Engineer",
+    "category": "location",
+    "question": "Are you willing to relocate if required?",
+    "answer_type": "yes_no",
+    "mandatory": false,
+    "score_importance": "low"
+  },
+  {
+    "role": "Software Engineer",
+    "category": "salary",
+    "question": "What is your expected annual salary?",
+    "answer_type": "number",
+    "mandatory": false,
+    "score_importance": "medium"
+  },
+  {
+    "role": "Software Engineer",
+    "category": "notice_period",
+    "question": "What is your current notice period?",
+    "answer_type": "text",
+    "mandatory": true,
+    "score_importance": "medium"
+  },
+  {
+    "role": "Data Scientist",
+    "category": "introduction",
+    "question": "Tell me about your background in data science.",
+    "answer_type": "free_text",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Data Scientist",
+    "category": "education",
+    "question": "What is your educational background?",
+    "answer_type": "text",
+    "mandatory": true,
+    "score_importance": "medium"
+  },
+  {
+    "role": "Data Scientist",
+    "category": "experience",
+    "question": "How many years of experience in data science?",
+    "answer_type": "number",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Data Scientist",
+    "category": "skills",
+    "question": "Which tools and technologies do you use for data analysis?",
+    "answer_type": "list",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Data Scientist",
+    "category": "location",
+    "question": "Are you open to working from office?",
+    "answer_type": "yes_no",
+    "mandatory": false,
+    "score_importance": "low"
+  },
+  {
+    "role": "Data Scientist",
+    "category": "salary",
+    "question": "What is your expected salary range?",
+    "answer_type": "text",
+    "mandatory": false,
+    "score_importance": "medium"
+  },
+  {
+    "role": "Data Scientist",
+    "category": "notice_period",
+    "question": "What is your notice period?",
+    "answer_type": "text",
+    "mandatory": true,
+    "score_importance": "medium"
+  },
+  {
+    "role": "Marketing Manager",
+    "category": "introduction",
+    "question": "Tell me about your marketing experience.",
+    "answer_type": "free_text",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Marketing Manager",
+    "category": "education",
+    "question": "What is your educational qualification?",
+    "answer_type": "text",
+    "mandatory": true,
+    "score_importance": "medium"
+  },
+  {
+    "role": "Marketing Manager",
+    "category": "experience",
+    "question": "How many years of experience in marketing?",
+    "answer_type": "number",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Marketing Manager",
+    "category": "skills",
+    "question": "Which marketing tools and platforms have you used?",
+    "answer_type": "list",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Marketing Manager",
+    "category": "location",
+    "question": "Are you willing to travel for work?",
+    "answer_type": "yes_no",
+    "mandatory": false,
+    "score_importance": "low"
+  },
+  {
+    "role": "Marketing Manager",
+    "category": "salary",
+    "question": "What is your expected salary?",
+    "answer_type": "number",
+    "mandatory": false,
+    "score_importance": "medium"
+  },
+  {
+    "role": "Marketing Manager",
+    "category": "notice_period",
+    "question": "What is your notice period?",
+    "answer_type": "text",
+    "mandatory": true,
+    "score_importance": "medium"
+  },
+  {
+    "role": "Fresher",
+    "category": "introduction",
+    "question": "Tell me about yourself.",
+    "answer_type": "free_text",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Fresher",
+    "category": "education",
+    "question": "What is your educational background?",
+    "answer_type": "text",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Fresher",
+    "category": "skills",
+    "question": "What technical skills do you have?",
+    "answer_type": "list",
+    "mandatory": true,
+    "score_importance": "high"
+  },
+  {
+    "role": "Fresher",
+    "category": "location",
+    "question": "Are you willing to relocate?",
+    "answer_type": "yes_no",
+    "mandatory": false,
+    "score_importance": "low"
+  },
+  {
+    "role": "Fresher",
+    "category": "salary",
+    "question": "What is your salary expectation?",
+    "answer_type": "number",
+    "mandatory": false,
+    "score_importance": "medium"
+  },
+  {
+    "role": "Fresher",
+    "category": "notice_period",
+    "question": "When can you join if selected?",
+    "answer_type": "text",
+    "mandatory": true,
+    "score_importance": "high"
+  }
+]

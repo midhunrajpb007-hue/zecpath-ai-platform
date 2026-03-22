@@ -1,0 +1,37 @@
+{
+  "introduction": {
+    "description": "Basic intro questions",
+    "mandatory_count": 4,
+    "total_count": 4
+  },
+  "education": {
+    "description": "Educational background",
+    "mandatory_count": 4,
+    "total_count": 4
+  },
+  "experience": {
+    "description": "Work experience",
+    "mandatory_count": 3,
+    "total_count": 3
+  },
+  "skills": {
+    "description": "Technical skills",
+    "mandatory_count": 4,
+    "total_count": 4
+  },
+  "location": {
+    "description": "Location preference",
+    "mandatory_count": 0,
+    "total_count": 4
+  },
+  "salary": {
+    "description": "Salary expectation",
+    "mandatory_count": 0,
+    "total_count": 4
+  },
+  "notice_period": {
+    "description": "Notice period",
+    "mandatory_count": 4,
+    "total_count": 4
+  }
+}

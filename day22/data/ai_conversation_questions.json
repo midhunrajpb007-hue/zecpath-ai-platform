@@ -1,0 +1,218 @@
+[
+  {
+    "id": "q_software_engineer_introduction",
+    "text": "Tell me about yourself and your career background.",
+    "type": "free_text",
+    "required": true,
+    "weight": 1,
+    "category": "introduction"
+  },
+  {
+    "id": "q_software_engineer_education",
+    "text": "What is your highest educational qualification?",
+    "type": "text",
+    "required": true,
+    "weight": 0.5,
+    "category": "education"
+  },
+  {
+    "id": "q_software_engineer_experience",
+    "text": "How many years of experience do you have in software development?",
+    "type": "number",
+    "required": true,
+    "weight": 1,
+    "category": "experience"
+  },
+  {
+    "id": "q_software_engineer_skills",
+    "text": "What programming languages and frameworks are you proficient in?",
+    "type": "list",
+    "required": true,
+    "weight": 1,
+    "category": "skills"
+  },
+  {
+    "id": "q_software_engineer_location",
+    "text": "Are you willing to relocate if required?",
+    "type": "yes_no",
+    "required": false,
+    "weight": 0.2,
+    "category": "location"
+  },
+  {
+    "id": "q_software_engineer_salary",
+    "text": "What is your expected annual salary?",
+    "type": "number",
+    "required": false,
+    "weight": 0.5,
+    "category": "salary"
+  },
+  {
+    "id": "q_software_engineer_notice_period",
+    "text": "What is your current notice period?",
+    "type": "text",
+    "required": true,
+    "weight": 0.5,
+    "category": "notice_period"
+  },
+  {
+    "id": "q_data_scientist_introduction",
+    "text": "Tell me about your background in data science.",
+    "type": "free_text",
+    "required": true,
+    "weight": 1,
+    "category": "introduction"
+  },
+  {
+    "id": "q_data_scientist_education",
+    "text": "What is your educational background?",
+    "type": "text",
+    "required": true,
+    "weight": 0.5,
+    "category": "education"
+  },
+  {
+    "id": "q_data_scientist_experience",
+    "text": "How many years of experience in data science?",
+    "type": "number",
+    "required": true,
+    "weight": 1,
+    "category": "experience"
+  },
+  {
+    "id": "q_data_scientist_skills",
+    "text": "Which tools and technologies do you use for data analysis?",
+    "type": "list",
+    "required": true,
+    "weight": 1,
+    "category": "skills"
+  },
+  {
+    "id": "q_data_scientist_location",
+    "text": "Are you open to working from office?",
+    "type": "yes_no",
+    "required": false,
+    "weight": 0.2,
+    "category": "location"
+  },
+  {
+    "id": "q_data_scientist_salary",
+    "text": "What is your expected salary range?",
+    "type": "text",
+    "required": false,
+    "weight": 0.5,
+    "category": "salary"
+  },
+  {
+    "id": "q_data_scientist_notice_period",
+    "text": "What is your notice period?",
+    "type": "text",
+    "required": true,
+    "weight": 0.5,
+    "category": "notice_period"
+  },
+  {
+    "id": "q_marketing_manager_introduction",
+    "text": "Tell me about your marketing experience.",
+    "type": "free_text",
+    "required": true,
+    "weight": 1,
+    "category": "introduction"
+  },
+  {
+    "id": "q_marketing_manager_education",
+    "text": "What is your educational qualification?",
+    "type": "text",
+    "required": true,
+    "weight": 0.5,
+    "category": "education"
+  },
+  {
+    "id": "q_marketing_manager_experience",
+    "text": "How many years of experience in marketing?",
+    "type": "number",
+    "required": true,
+    "weight": 1,
+    "category": "experience"
+  },
+  {
+    "id": "q_marketing_manager_skills",
+    "text": "Which marketing tools and platforms have you used?",
+    "type": "list",
+    "required": true,
+    "weight": 1,
+    "category": "skills"
+  },
+  {
+    "id": "q_marketing_manager_location",
+    "text": "Are you willing to travel for work?",
+    "type": "yes_no",
+    "required": false,
+    "weight": 0.2,
+    "category": "location"
+  },
+  {
+    "id": "q_marketing_manager_salary",
+    "text": "What is your expected salary?",
+    "type": "number",
+    "required": false,
+    "weight": 0.5,
+    "category": "salary"
+  },
+  {
+    "id": "q_marketing_manager_notice_period",
+    "text": "What is your notice period?",
+    "type": "text",
+    "required": true,
+    "weight": 0.5,
+    "category": "notice_period"
+  },
+  {
+    "id": "q_fresher_introduction",
+    "text": "Tell me about yourself.",
+    "type": "free_text",
+    "required": true,
+    "weight": 1,
+    "category": "introduction"
+  },
+  {
+    "id": "q_fresher_education",
+    "text": "What is your educational background?",
+    "type": "text",
+    "required": true,
+    "weight": 1,
+    "category": "education"
+  },
+  {
+    "id": "q_fresher_skills",
+    "text": "What technical skills do you have?",
+    "type": "list",
+    "required": true,
+    "weight": 1,
+    "category": "skills"
+  },
+  {
+    "id": "q_fresher_location",
+    "text": "Are you willing to relocate?",
+    "type": "yes_no",
+    "required": false,
+    "weight": 0.2,
+    "category": "location"
+  },
+  {
+    "id": "q_fresher_salary",
+    "text": "What is your salary expectation?",
+    "type": "number",
+    "required": false,
+    "weight": 0.5,
+    "category": "salary"
+  },
+  {
+    "id": "q_fresher_notice_period",
+    "text": "When can you join if selected?",
+    "type": "text",
+    "required": true,
+    "weight": 1,
+    "category": "notice_period"
+  }
+]
