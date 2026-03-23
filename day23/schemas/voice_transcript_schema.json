@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Voice Transcript Schema",
+  "description": "Structured format for AI voice screening call transcripts",
+  "type": "object",
+  "required": ["transcript_id", "candidate_id", "job_id", "timestamp", "interactions"],
+  "properties": {
+    "transcript_id": {
+      "type": "string",
+      "description": "Unique transcript identifier",
+      "example": "TSCR-20260323-001"
+    },
+    "candidate_id": {
+      "type": "string",
+      "description": "Candidate identifier",
+      "example": "CAND-20260323-001"
+    },
+    "job_id": {
+      "type": "string",
+      "description": "Job identifier",
+      "example": "JOB-SE-2025-001"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp",
+      "example": "2026-03-23T10:30:00Z"
+    },
+    "duration_seconds": {
+      "type": "integer",
+      "description": "Total call duration",
+      "minimum": 0
+    },
+    "interactions": {
+      "type": "array",
+      "description": "List of question-answer interactions",
+      "items": {
+        "type": "object",
+        "required": ["question_id", "question_text", "answer_text", "confidence_score"],
+        "properties": {
+          "question_id": {
+            "type": "string",
+            "description": "Question identifier (from Day 22 question bank)"
+          },
+          "question_text": {
+            "type": "string",
+            "description": "Original question asked"
+          },
+          "answer_text": {
+            "type": "string",
+            "description": "Candidate's raw answer"
+          },
+          "answer_normalized": {
+            "type": "string",
+            "description": "Normalized version of answer"
+          },
+          "confidence_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Speech-to-text confidence (0-100)"
+          },
+          "processing_time_ms": {
+            "type": "integer",
+            "description": "Time taken to process this interaction"
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "model_version": {
+          "type": "string",
+          "description": "Speech-to-text model version"
+        },
+        "language": {
+          "type": "string",
+          "description": "Language used in call",
+          "enum": ["en", "hi", "ml", "ta"]
+        },
+        "voice_gender": {
+          "type": "string",
+          "enum": ["male", "female"]
+        },
+        "call_status": {
+          "type": "string",
+          "enum": ["completed", "interrupted", "failed"]
+        }
+      }
+    }
+  }
+}

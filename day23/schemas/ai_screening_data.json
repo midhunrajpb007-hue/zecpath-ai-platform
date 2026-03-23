@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI Screening Data Structure",
+  "description": "Processed screening data ready for AI scoring",
+  "type": "object",
+  "required": ["screening_id", "candidate_id", "job_id", "responses", "scores"],
+  "properties": {
+    "screening_id": {
+      "type": "string"
+    },
+    "candidate_id": {
+      "type": "string"
+    },
+    "job_id": {
+      "type": "string"
+    },
+    "screening_date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "responses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "question_category": {
+            "type": "string",
+            "enum": ["introduction", "education", "experience", "skills", "location", "salary", "notice_period"]
+          },
+          "answer": {
+            "type": "string"
+          },
+          "extracted_value": {
+            "type": ["string", "number", "boolean", "null"]
+          },
+          "confidence": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "eligibility_score": {
+          "type": "number"
+        },
+        "communication_score": {
+          "type": "number"
+        },
+        "category_scores": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}
