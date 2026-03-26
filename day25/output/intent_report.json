@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-03-26T10:35:10.731280",
+  "features": {
+    "intent_classification": [
+      "introduction",
+      "skills",
+      "experience",
+      "education",
+      "location",
+      "salary",
+      "notice_period",
+      "availability"
+    ],
+    "extraction": [
+      "skills",
+      "experience_years",
+      "salary",
+      "availability"
+    ],
+    "detection": [
+      "off_topic",
+      "vague"
+    ]
+  },
+  "test_summary": {
+    "intent_tests": 7,
+    "extraction_tests": 8,
+    "off_topic_tests": 4,
+    "vague_tests": 5,
+    "pipeline_tests": 6
+  }
+}
