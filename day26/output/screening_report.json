@@ -1,0 +1,233 @@
+{
+  "generated_at": "2026-03-27T14:40:00.464217",
+  "candidate_scores": [
+    78.0,
+    67.5,
+    61.0,
+    69.0,
+    34.5,
+    55.0
+  ],
+  "aggregated": {
+    "total_answers": 6,
+    "average_score": 60.83,
+    "scores_by_question": [
+      {
+        "question_intent": "skills",
+        "score": 78.0,
+        "breakdown": {
+          "clarity": {
+            "score": 80,
+            "word_count": 12,
+            "filler_count": 1,
+            "details": "12 words, 1 filler words"
+          },
+          "relevance": {
+            "score": 60,
+            "matched_keywords": [
+              "python",
+              "java",
+              "react"
+            ],
+            "details": "Matched 3 keywords: ['python', 'java', 'react']"
+          },
+          "completeness": {
+            "score": 100,
+            "checks_passed": [
+              "Sufficient length (\u22655 words)",
+              "Proper ending punctuation",
+              "Skills mentioned",
+              "Clear, no vague phrases"
+            ],
+            "details": "4/4 checks passed"
+          },
+          "consistency": {
+            "score": 80,
+            "details": "No previous answers to compare"
+          }
+        }
+      },
+      {
+        "question_intent": "experience",
+        "score": 67.5,
+        "breakdown": {
+          "clarity": {
+            "score": 65,
+            "word_count": 9,
+            "filler_count": 1,
+            "details": "9 words, 1 filler words"
+          },
+          "relevance": {
+            "score": 40,
+            "matched_keywords": [
+              "years",
+              "experience"
+            ],
+            "details": "Matched 2 keywords: ['years', 'experience']"
+          },
+          "completeness": {
+            "score": 100,
+            "checks_passed": [
+              "Sufficient length (\u22655 words)",
+              "Proper ending punctuation",
+              "Experience mentioned",
+              "Clear, no vague phrases"
+            ],
+            "details": "4/4 checks passed"
+          },
+          "consistency": {
+            "score": 80,
+            "details": "No previous answers to compare"
+          }
+        }
+      },
+      {
+        "question_intent": "salary",
+        "score": 61.0,
+        "breakdown": {
+          "clarity": {
+            "score": 60,
+            "word_count": 7,
+            "filler_count": 0,
+            "details": "7 words, 0 filler words"
+          },
+          "relevance": {
+            "score": 40,
+            "matched_keywords": [
+              "lakh",
+              "salary"
+            ],
+            "details": "Matched 2 keywords: ['lakh', 'salary']"
+          },
+          "completeness": {
+            "score": 75,
+            "checks_passed": [
+              "Sufficient length (\u22655 words)",
+              "Proper ending punctuation",
+              "Salary mentioned"
+            ],
+            "details": "3/4 checks passed"
+          },
+          "consistency": {
+            "score": 80,
+            "details": "No previous answers to compare"
+          }
+        }
+      },
+      {
+        "question_intent": "availability",
+        "score": 69.0,
+        "breakdown": {
+          "clarity": {
+            "score": 70,
+            "word_count": 6,
+            "filler_count": 0,
+            "details": "6 words, 0 filler words"
+          },
+          "relevance": {
+            "score": 40,
+            "matched_keywords": [
+              "days",
+              "join"
+            ],
+            "details": "Matched 2 keywords: ['days', 'join']"
+          },
+          "completeness": {
+            "score": 100,
+            "checks_passed": [
+              "Sufficient length (\u22655 words)",
+              "Proper ending punctuation",
+              "Availability mentioned",
+              "Clear, no vague phrases"
+            ],
+            "details": "4/4 checks passed"
+          },
+          "consistency": {
+            "score": 80,
+            "details": "No previous answers to compare"
+          }
+        }
+      },
+      {
+        "question_intent": "skills",
+        "score": 34.5,
+        "breakdown": {
+          "clarity": {
+            "score": 45,
+            "word_count": 4,
+            "filler_count": 1,
+            "details": "4 words, 1 filler words"
+          },
+          "relevance": {
+            "score": 0,
+            "matched_keywords": [],
+            "details": "Matched 0 keywords: []"
+          },
+          "completeness": {
+            "score": 25,
+            "checks_passed": [
+              "Proper ending punctuation"
+            ],
+            "details": "1/4 checks passed"
+          },
+          "consistency": {
+            "score": 80,
+            "details": "No previous answers to compare"
+          }
+        }
+      },
+      {
+        "question_intent": "salary",
+        "score": 55.0,
+        "breakdown": {
+          "clarity": {
+            "score": 60,
+            "word_count": 5,
+            "filler_count": 0,
+            "details": "5 words, 0 filler words"
+          },
+          "relevance": {
+            "score": 20,
+            "matched_keywords": [
+              "salary"
+            ],
+            "details": "Matched 1 keywords: ['salary']"
+          },
+          "completeness": {
+            "score": 75,
+            "checks_passed": [
+              "Sufficient length (\u22655 words)",
+              "Proper ending punctuation",
+              "Salary mentioned"
+            ],
+            "details": "3/4 checks passed"
+          },
+          "consistency": {
+            "score": 80,
+            "details": "No previous answers to compare"
+          }
+        }
+      }
+    ],
+    "normalized_scores": [
+      100.0,
+      75.86,
+      60.92,
+      79.31,
+      0.0,
+      47.13
+    ],
+    "weights_used": {
+      "clarity": 0.3,
+      "relevance": 0.3,
+      "completeness": 0.2,
+      "consistency": 0.2
+    }
+  },
+  "weights": {
+    "clarity": 0.3,
+    "relevance": 0.3,
+    "completeness": 0.2,
+    "consistency": 0.2
+  }
+}
