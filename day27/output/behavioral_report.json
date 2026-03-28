@@ -1,0 +1,26 @@
+{
+  "overall_score": 81.14,
+  "rating": "Excellent communication",
+  "behavioral_indicators": {
+    "confidence_level": {
+      "score": 85.71,
+      "details": "1 filler words in 14 words"
+    },
+    "communication_pace": {
+      "score": 70,
+      "details": "14 words - medium response"
+    },
+    "sentiment_tone": {
+      "score": 50,
+      "details": "0 positive, 0 negative words"
+    },
+    "certainty_level": {
+      "score": 100.0,
+      "details": "0 uncertainty indicators"
+    },
+    "consistency": {
+      "score": 100,
+      "details": "0 contradictions found"
+    }
+  }
+}
