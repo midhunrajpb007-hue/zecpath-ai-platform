@@ -1,0 +1,63 @@
+{
+  "report_id": "SCR-20260330-190554",
+  "generated_at": "2026-03-30T19:05:54.731398",
+  "candidate_info": {
+    "name": "Midhun Raj",
+    "email": "midhun@email.com",
+    "phone": "9037095458",
+    "job_id": "SE-2025-001"
+  },
+  "screening_summary": {
+    "total_questions": 5,
+    "average_score": 80.0,
+    "rating": "Excellent"
+  },
+  "key_answers": [
+    {
+      "question": "What are your technical skills?",
+      "answer": "Python, Java, React, SQL",
+      "score": 85,
+      "intent": "skills"
+    },
+    {
+      "question": "How many years of experience?",
+      "answer": "I have 4 years of experience",
+      "score": 90,
+      "intent": "experience"
+    },
+    {
+      "question": "What is your salary expectation?",
+      "answer": "Around 12 lakhs",
+      "score": 70,
+      "intent": "salary"
+    },
+    {
+      "question": "When can you join?",
+      "answer": "I can join in 30 days",
+      "score": 75,
+      "intent": "availability"
+    }
+  ],
+  "strengths": [
+    "Strong performance on 3 questions (score \u226580%)",
+    "Technical skills identified: Python, Java, React, SQL",
+    "Good experience level: 4 years"
+  ],
+  "risks": [
+    "No major risks identified"
+  ],
+  "missing_data": [],
+  "highlights": {
+    "salary_expectation": "12 lakhs",
+    "availability": "30 days notice",
+    "skills_confirmed": [
+      "Python",
+      "Java",
+      "React",
+      "SQL"
+    ],
+    "experience_years": 4
+  },
+  "overall_assessment": "Strong candidate - meets all requirements",
+  "recommendation": "Proceed to next round"
+}
