@@ -1,0 +1,105 @@
+{
+  "start": {
+    "next": "introduction",
+    "description": "Start the call"
+  },
+  "introduction": {
+    "question": "Hello! I'm calling from Zecpath. May I speak with {name}?",
+    "next_success": "skills",
+    "next_failure": "reask_intro",
+    "max_attempts": 2,
+    "description": "Confirm candidate identity"
+  },
+  "reask_intro": {
+    "question": "Sorry, could you please confirm if this is {name}?",
+    "next_success": "skills",
+    "next_failure": "end_failure",
+    "max_attempts": 1,
+    "description": "Re-ask identity confirmation"
+  },
+  "skills": {
+    "question": "What are your main technical skills?",
+    "next_success": "experience",
+    "next_failure": "fallback_skills",
+    "max_attempts": 2,
+    "description": "Ask about technical skills"
+  },
+  "fallback_skills": {
+    "question": "Could you tell me about your programming experience?",
+    "next_success": "experience",
+    "next_failure": "skip_skills",
+    "max_attempts": 1,
+    "description": "Fallback for skills question"
+  },
+  "skip_skills": {
+    "question": "Let's move on. How many years of experience do you have?",
+    "next": "experience",
+    "description": "Skip skills section"
+  },
+  "experience": {
+    "question": "How many years of experience do you have in software development?",
+    "next_success": "salary",
+    "next_failure": "fallback_exp",
+    "max_attempts": 2,
+    "description": "Ask about experience"
+  },
+  "fallback_exp": {
+    "question": "I didn't catch that. Could you tell me your years of experience?",
+    "next_success": "salary",
+    "next_failure": "skip_exp",
+    "max_attempts": 1,
+    "description": "Fallback for experience"
+  },
+  "skip_exp": {
+    "question": "What are your salary expectations?",
+    "next": "salary",
+    "description": "Skip experience section"
+  },
+  "salary": {
+    "question": "What is your expected annual salary?",
+    "next_success": "availability",
+    "next_failure": "fallback_salary",
+    "max_attempts": 2,
+    "description": "Ask about salary"
+  },
+  "fallback_salary": {
+    "question": "Could you give me a salary range you're comfortable with?",
+    "next_success": "availability",
+    "next_failure": "skip_salary",
+    "max_attempts": 1,
+    "description": "Fallback for salary"
+  },
+  "skip_salary": {
+    "question": "When can you join if selected?",
+    "next": "availability",
+    "description": "Skip salary section"
+  },
+  "availability": {
+    "question": "What is your notice period?",
+    "next_success": "confirmation",
+    "next_failure": "fallback_availability",
+    "max_attempts": 2,
+    "description": "Ask about availability"
+  },
+  "fallback_availability": {
+    "question": "When would you be able to join?",
+    "next_success": "confirmation",
+    "next_failure": "end_partial",
+    "max_attempts": 1,
+    "description": "Fallback for availability"
+  },
+  "confirmation": {
+    "question": "Thank you for your time. We'll review your profile and get back to you.",
+    "next": "end",
+    "description": "End call positively"
+  },
+  "end": {
+    "description": "Call ended successfully"
+  },
+  "end_partial": {
+    "description": "Call ended with partial information"
+  },
+  "end_failure": {
+    "description": "Call ended - could not verify identity"
+  }
+}
