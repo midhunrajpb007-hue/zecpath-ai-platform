@@ -1,0 +1,263 @@
+{
+  "generated_at": "2026-04-01T22:27:44.581240",
+  "summary": {
+    "total_tests": 5,
+    "correct_decisions": 4,
+    "accuracy": 80.0,
+    "intent_accuracy": 90.0,
+    "best_threshold": 65
+  },
+  "metrics": {
+    "false_positives": 0,
+    "false_negatives": 0
+  },
+  "score_errors": [
+    {
+      "answer": "I expect around 15 lakhs",
+      "expected": 85,
+      "got": 60,
+      "diff": 25
+    },
+    {
+      "answer": "I like watching movies",
+      "expected": 20,
+      "got": 60,
+      "diff": 40
+    },
+    {
+      "answer": "I have no experience",
+      "expected": 10,
+      "got": 60,
+      "diff": 50
+    },
+    {
+      "answer": "I want high salary",
+      "expected": 15,
+      "got": 60,
+      "diff": 45
+    },
+    {
+      "answer": "Expecting around 12-14 lakhs",
+      "expected": 82,
+      "got": 50,
+      "diff": 32
+    }
+  ],
+  "detailed_results": [
+    {
+      "test_id": "T001",
+      "scores": [
+        70,
+        80,
+        60,
+        70
+      ],
+      "avg_score": 70.0,
+      "ai_decision": "shortlist",
+      "human_decision": "shortlist",
+      "match": true,
+      "intent_results": [
+        {
+          "intent": "skills",
+          "answer": "I know Python, Java, and React",
+          "detected": true,
+          "score": 70,
+          "expected_score": 90
+        },
+        {
+          "intent": "experience",
+          "answer": "I have 5 years of experience",
+          "detected": true,
+          "score": 80,
+          "expected_score": 95
+        },
+        {
+          "intent": "salary",
+          "answer": "I expect around 15 lakhs",
+          "detected": true,
+          "score": 60,
+          "expected_score": 85
+        },
+        {
+          "intent": "availability",
+          "answer": "I can join in 30 days",
+          "detected": true,
+          "score": 70,
+          "expected_score": 80
+        }
+      ]
+    },
+    {
+      "test_id": "T002",
+      "scores": [
+        60,
+        40,
+        40,
+        30
+      ],
+      "avg_score": 42.5,
+      "ai_decision": "reject",
+      "human_decision": "reject",
+      "match": true,
+      "intent_results": [
+        {
+          "intent": "skills",
+          "answer": "I know some Python",
+          "detected": true,
+          "score": 60,
+          "expected_score": 50
+        },
+        {
+          "intent": "experience",
+          "answer": "Maybe 2 years? I am not sure",
+          "detected": true,
+          "score": 40,
+          "expected_score": 40
+        },
+        {
+          "intent": "salary",
+          "answer": "I don't know",
+          "detected": true,
+          "score": 40,
+          "expected_score": 30
+        },
+        {
+          "intent": "availability",
+          "answer": "Not sure",
+          "detected": false,
+          "score": 30,
+          "expected_score": 35
+        }
+      ]
+    },
+    {
+      "test_id": "T003",
+      "scores": [
+        70,
+        80,
+        80,
+        70
+      ],
+      "avg_score": 75.0,
+      "ai_decision": "shortlist",
+      "human_decision": "shortlist",
+      "match": true,
+      "intent_results": [
+        {
+          "intent": "skills",
+          "answer": "I am proficient in Python, Django, and PostgreSQL",
+          "detected": true,
+          "score": 70,
+          "expected_score": 85
+        },
+        {
+          "intent": "experience",
+          "answer": "I have 3 years of professional experience",
+          "detected": true,
+          "score": 80,
+          "expected_score": 80
+        },
+        {
+          "intent": "salary",
+          "answer": "My expected salary is 10 lakhs",
+          "detected": true,
+          "score": 80,
+          "expected_score": 90
+        },
+        {
+          "intent": "availability",
+          "answer": "I have a 15 days notice period",
+          "detected": true,
+          "score": 70,
+          "expected_score": 85
+        }
+      ]
+    },
+    {
+      "test_id": "T004",
+      "scores": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "avg_score": 60.0,
+      "ai_decision": "reject",
+      "human_decision": "reject",
+      "match": true,
+      "intent_results": [
+        {
+          "intent": "skills",
+          "answer": "I like watching movies",
+          "detected": false,
+          "score": 60,
+          "expected_score": 20
+        },
+        {
+          "intent": "experience",
+          "answer": "I have no experience",
+          "detected": true,
+          "score": 60,
+          "expected_score": 10
+        },
+        {
+          "intent": "salary",
+          "answer": "I want high salary",
+          "detected": true,
+          "score": 60,
+          "expected_score": 15
+        },
+        {
+          "intent": "availability",
+          "answer": "I can join anytime",
+          "detected": true,
+          "score": 60,
+          "expected_score": 70
+        }
+      ]
+    },
+    {
+      "test_id": "T005",
+      "scores": [
+        70,
+        80,
+        50,
+        60
+      ],
+      "avg_score": 65.0,
+      "ai_decision": "reject",
+      "human_decision": "shortlist",
+      "match": false,
+      "intent_results": [
+        {
+          "intent": "skills",
+          "answer": "I have experience with Java, Spring Boot, and MySQL",
+          "detected": true,
+          "score": 70,
+          "expected_score": 88
+        },
+        {
+          "intent": "experience",
+          "answer": "4 years in backend development",
+          "detected": true,
+          "score": 80,
+          "expected_score": 85
+        },
+        {
+          "intent": "salary",
+          "answer": "Expecting around 12-14 lakhs",
+          "detected": true,
+          "score": 50,
+          "expected_score": 82
+        },
+        {
+          "intent": "availability",
+          "answer": "30 days notice period",
+          "detected": true,
+          "score": 60,
+          "expected_score": 80
+        }
+      ]
+    }
+  ]
+}
