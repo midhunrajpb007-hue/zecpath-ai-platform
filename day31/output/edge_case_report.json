@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-04-02T19:20:11.046758",
+  "edge_cases_tested": 5,
+  "successful_handling": 3,
+  "retry_summary": {
+    "retries": 2,
+    "fallback_used": true
+  },
+  "handlers_implemented": [
+    "Poor audio detection",
+    "Language mixing detection (Malayalam/Hindi)",
+    "Missing answer detection",
+    "Background noise detection",
+    "Retry logic (max 2 attempts)",
+    "Clarification messages",
+    "Safety fallback"
+  ],
+  "fallback_used": true
+}
