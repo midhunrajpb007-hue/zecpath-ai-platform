@@ -1,0 +1,106 @@
+{
+  "fresher_technical": {
+    "introduction": [
+      "Tell me about yourself and why you chose a career in tech.",
+      "What programming languages did you learn during your studies?"
+    ],
+    "career_journey": [
+      "What projects did you work on during your college days?",
+      "Have you done any internships? Tell me about them."
+    ],
+    "strengths_weaknesses": [
+      "What are your key technical strengths?",
+      "What areas are you looking to improve?"
+    ],
+    "teamwork_culture": [
+      "Describe a group project you worked on.",
+      "How do you handle conflicts in a team?"
+    ],
+    "career_goals": [
+      "Where do you see yourself in 3 years?",
+      "What technologies are you excited to learn?"
+    ],
+    "availability": [
+      "When can you join if selected?",
+      "Are you willing to relocate if required?"
+    ]
+  },
+  "experienced_technical": {
+    "introduction": [
+      "Tell me about your professional journey so far.",
+      "What motivated you to apply for this role?"
+    ],
+    "career_journey": [
+      "Walk me through your career progression.",
+      "What was your biggest achievement in your last role?"
+    ],
+    "strengths_weaknesses": [
+      "What are your strongest technical skills?",
+      "What feedback have you received for improvement?"
+    ],
+    "teamwork_culture": [
+      "Describe a time you led a team successfully.",
+      "How do you handle disagreements with colleagues?"
+    ],
+    "career_goals": [
+      "What are your career aspirations?",
+      "Why are you looking for a change?"
+    ],
+    "availability": [
+      "What is your notice period?",
+      "Can you join immediately if required?"
+    ]
+  },
+  "fresher_nontech": {
+    "introduction": [
+      "Tell me about yourself and your background.",
+      "Why did you choose this field?"
+    ],
+    "career_journey": [
+      "What extracurricular activities were you part of?",
+      "Have you done any relevant certifications?"
+    ],
+    "strengths_weaknesses": [
+      "What are your key strengths?",
+      "What areas do you want to develop?"
+    ],
+    "teamwork_culture": [
+      "Tell me about a team experience you enjoyed.",
+      "How do you contribute to a positive work environment?"
+    ],
+    "career_goals": [
+      "What are your career goals?",
+      "Where do you see yourself in 5 years?"
+    ],
+    "availability": [
+      "When can you join?",
+      "Are you flexible with work location?"
+    ]
+  },
+  "experienced_nontech": {
+    "introduction": [
+      "Tell me about your professional background.",
+      "What brings you to this opportunity?"
+    ],
+    "career_journey": [
+      "Describe your career path so far.",
+      "What has been your most significant achievement?"
+    ],
+    "strengths_weaknesses": [
+      "What are your professional strengths?",
+      "What constructive feedback have you received?"
+    ],
+    "teamwork_culture": [
+      "Describe a challenging team situation you handled.",
+      "How do you build relationships with colleagues?"
+    ],
+    "career_goals": [
+      "What are your long-term career aspirations?",
+      "Why are you considering this role?"
+    ],
+    "availability": [
+      "What is your notice period?",
+      "When would you be available to start?"
+    ]
+  }
+}
