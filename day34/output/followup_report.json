@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-04-11T19:40:13.205040",
+  "session": {
+    "candidate_id": "C001",
+    "started_at": "2026-04-11T19:40:13.202817",
+    "questions_asked": [],
+    "followups_used": 5,
+    "current_difficulty": "medium",
+    "answers": [
+      {
+        "question": "How many years of experience do you have?",
+        "answer": "I have some experience",
+        "followup_type": null,
+        "timestamp": "2026-04-11T19:40:13.203296"
+      },
+      {
+        "question": "Could you please clarify? How many years of experience do you have?",
+        "answer": "[follow-up question]",
+        "followup_type": "clarification",
+        "timestamp": "2026-04-11T19:40:13.203310"
+      },
+      {
+        "question": "What are your technical skills?",
+        "answer": "Python, React, SQL",
+        "followup_type": null,
+        "timestamp": "2026-04-11T19:40:13.203824"
+      },
+      {
+        "question": "Could you please clarify? What are your technical skills?",
+        "answer": "[follow-up question]",
+        "followup_type": "clarification",
+        "timestamp": "2026-04-11T19:40:13.203843"
+      },
+      {
+        "question": "Tell me about a challenging project",
+        "answer": "I once worked on a large e-commerce platform and optimized database queries.",
+        "followup_type": null,
+        "timestamp": "2026-04-11T19:40:13.204163"
+      },
+      {
+        "question": "Can you share an example from your work experience?",
+        "answer": "[follow-up question]",
+        "followup_type": "example",
+        "timestamp": "2026-04-11T19:40:13.204182"
+      },
+      {
+        "question": "How confident are you in Python?",
+        "answer": "I'm very confident, I use it daily for backend development.",
+        "followup_type": null,
+        "timestamp": "2026-04-11T19:40:13.204395"
+      },
+      {
+        "question": "Can you give an example of how you applied that skill?",
+        "answer": "[follow-up question]",
+        "followup_type": "example",
+        "timestamp": "2026-04-11T19:40:13.204407"
+      },
+      {
+        "question": "Describe your leadership experience",
+        "answer": "I don't know, maybe a little",
+        "followup_type": null,
+        "timestamp": "2026-04-11T19:40:13.204599"
+      },
+      {
+        "question": "Could you please clarify? Describe your leadership experience",
+        "answer": "[follow-up question]",
+        "followup_type": "clarification",
+        "timestamp": "2026-04-11T19:40:13.204606"
+      }
+    ]
+  },
+  "test_cases": 5
+}
