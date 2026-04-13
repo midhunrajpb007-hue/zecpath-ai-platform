@@ -1,0 +1,115 @@
+{
+  "model": "CommunicationScorer",
+  "formula": "overall = fluency*0.25 + grammar*0.25 + vocabulary*0.2 + clarity*0.2 + filler*0.1",
+  "sample_results": [
+    {
+      "overall_score": 89.0,
+      "components": {
+        "fluency": {
+          "score": 80,
+          "detail": "3 sentences, avg 9.3 words/sentence"
+        },
+        "grammar": {
+          "score": 100,
+          "detail": "0 grammar error(s)"
+        },
+        "vocabulary": {
+          "score": 95,
+          "detail": "25 unique / 27 total words"
+        },
+        "clarity": {
+          "score": 80,
+          "detail": "1 connectors, 3 sentences"
+        },
+        "filler_words": {
+          "score": 90,
+          "detail": "2 filler word(s)"
+        }
+      },
+      "normalized_score": 89.0,
+      "evaluated_at": "2026-04-13T20:55:55.903840"
+    },
+    {
+      "overall_score": 85.5,
+      "components": {
+        "fluency": {
+          "score": 70,
+          "detail": "2 sentences, avg 8.0 words/sentence"
+        },
+        "grammar": {
+          "score": 100,
+          "detail": "0 grammar error(s)"
+        },
+        "vocabulary": {
+          "score": 95,
+          "detail": "12 unique / 15 total words"
+        },
+        "clarity": {
+          "score": 80,
+          "detail": "1 connectors, 2 sentences"
+        },
+        "filler_words": {
+          "score": 80,
+          "detail": "4 filler word(s)"
+        }
+      },
+      "normalized_score": 85.5,
+      "evaluated_at": "2026-04-13T20:55:55.903877"
+    },
+    {
+      "overall_score": 91.5,
+      "components": {
+        "fluency": {
+          "score": 80,
+          "detail": "4 sentences, avg 9.0 words/sentence"
+        },
+        "grammar": {
+          "score": 100,
+          "detail": "0 grammar error(s)"
+        },
+        "vocabulary": {
+          "score": 95,
+          "detail": "28 unique / 34 total words"
+        },
+        "clarity": {
+          "score": 100,
+          "detail": "4 connectors, 4 sentences"
+        },
+        "filler_words": {
+          "score": 75,
+          "detail": "5 filler word(s)"
+        }
+      },
+      "normalized_score": 91.5,
+      "evaluated_at": "2026-04-13T20:55:55.903933"
+    },
+    {
+      "overall_score": 80.0,
+      "components": {
+        "fluency": {
+          "score": 50,
+          "detail": "5 sentences, avg 2.0 words/sentence"
+        },
+        "grammar": {
+          "score": 100,
+          "detail": "0 grammar error(s)"
+        },
+        "vocabulary": {
+          "score": 95,
+          "detail": "9 unique / 10 total words"
+        },
+        "clarity": {
+          "score": 70,
+          "detail": "0 connectors, 5 sentences"
+        },
+        "filler_words": {
+          "score": 95,
+          "detail": "1 filler word(s)"
+        }
+      },
+      "normalized_score": 80.0,
+      "evaluated_at": "2026-04-13T20:55:55.903965"
+    }
+  ],
+  "normalization": "min-max to 0-100"
+}
