@@ -1,0 +1,30 @@
+{
+  "candidate_id": "C001",
+  "hr_score": 67.16,
+  "normalized_score": 67.16,
+  "breakdown": {
+    "relevance": {
+      "score": 33.33,
+      "detail": "3 answers, matched keywords"
+    },
+    "communication": {
+      "score": 84.83,
+      "detail": "average of 3 answers"
+    },
+    "confidence": {
+      "score": 82.33,
+      "detail": "average of 3 answers"
+    },
+    "consistency": {
+      "score": 94.67,
+      "detail": "variance=2.7"
+    }
+  },
+  "weights": {
+    "relevance": 0.35,
+    "communication": 0.3,
+    "confidence": 0.25,
+    "consistency": 0.1
+  },
+  "generated_at": "2026-04-16T13:27:43.332643"
+}
