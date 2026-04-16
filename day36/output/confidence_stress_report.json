@@ -1,0 +1,171 @@
+{
+  "model": "ConfidenceStressAnalyzer",
+  "formula": "overall = hesitation*0.3 + sentiment*0.2 + contradiction*0.25 + stress*0.25",
+  "sample_results": [
+    {
+      "overall_confidence_score": 99.25,
+      "confidence_level": "High",
+      "components": {
+        "hesitation": {
+          "confidence_score": 100,
+          "uncertainty_count": 0,
+          "repeated_words": 0,
+          "pause_count": 0,
+          "details": "0 uncertain, 0 repeats, 0 pauses"
+        },
+        "sentiment": {
+          "score": 100.0,
+          "sentiment": "positive",
+          "positive_words": 2,
+          "negative_words": 0
+        },
+        "contradiction": {
+          "confidence_score": 100,
+          "contradiction_count": 0,
+          "details": "0 contradiction(s)"
+        },
+        "stress": {
+          "confidence_score": 97,
+          "filler_count": 1,
+          "short_answer_penalty": 0,
+          "negative_words": 0,
+          "stress_words": 0,
+          "details": "1 fillers, 0 short penalty, 0 negatives"
+        }
+      },
+      "evaluated_at": "2026-04-16T13:09:25.062288"
+    },
+    {
+      "overall_confidence_score": 85.0,
+      "confidence_level": "High",
+      "components": {
+        "hesitation": {
+          "confidence_score": 70,
+          "uncertainty_count": 3,
+          "repeated_words": 0,
+          "pause_count": 0,
+          "details": "3 uncertain, 0 repeats, 0 pauses"
+        },
+        "sentiment": {
+          "score": 100.0,
+          "sentiment": "positive",
+          "positive_words": 1,
+          "negative_words": 0
+        },
+        "contradiction": {
+          "confidence_score": 85,
+          "contradiction_count": 1,
+          "details": "1 contradiction(s)"
+        },
+        "stress": {
+          "confidence_score": 91,
+          "filler_count": 3,
+          "short_answer_penalty": 0,
+          "negative_words": 0,
+          "stress_words": 0,
+          "details": "3 fillers, 0 short penalty, 0 negatives"
+        }
+      },
+      "evaluated_at": "2026-04-16T13:09:25.062326"
+    },
+    {
+      "overall_confidence_score": 99.25,
+      "confidence_level": "High",
+      "components": {
+        "hesitation": {
+          "confidence_score": 100,
+          "uncertainty_count": 0,
+          "repeated_words": 0,
+          "pause_count": 0,
+          "details": "0 uncertain, 0 repeats, 0 pauses"
+        },
+        "sentiment": {
+          "score": 100.0,
+          "sentiment": "positive",
+          "positive_words": 3,
+          "negative_words": 0
+        },
+        "contradiction": {
+          "confidence_score": 100,
+          "contradiction_count": 0,
+          "details": "0 contradiction(s)"
+        },
+        "stress": {
+          "confidence_score": 97,
+          "filler_count": 1,
+          "short_answer_penalty": 0,
+          "negative_words": 0,
+          "stress_words": 0,
+          "details": "1 fillers, 0 short penalty, 0 negatives"
+        }
+      },
+      "evaluated_at": "2026-04-16T13:09:25.062354"
+    },
+    {
+      "overall_confidence_score": 62.75,
+      "confidence_level": "Medium",
+      "components": {
+        "hesitation": {
+          "confidence_score": 70,
+          "uncertainty_count": 2,
+          "repeated_words": 0,
+          "pause_count": 1,
+          "details": "2 uncertain, 0 repeats, 1 pauses"
+        },
+        "sentiment": {
+          "score": 0.0,
+          "sentiment": "negative",
+          "positive_words": 0,
+          "negative_words": 2
+        },
+        "contradiction": {
+          "confidence_score": 100,
+          "contradiction_count": 0,
+          "details": "0 contradiction(s)"
+        },
+        "stress": {
+          "confidence_score": 67,
+          "filler_count": 1,
+          "short_answer_penalty": 0,
+          "negative_words": 2,
+          "stress_words": 2,
+          "details": "1 fillers, 0 short penalty, 2 negatives"
+        }
+      },
+      "evaluated_at": "2026-04-16T13:09:25.062374"
+    },
+    {
+      "overall_confidence_score": 84.75,
+      "confidence_level": "High",
+      "components": {
+        "hesitation": {
+          "confidence_score": 100,
+          "uncertainty_count": 0,
+          "repeated_words": 0,
+          "pause_count": 0,
+          "details": "0 uncertain, 0 repeats, 0 pauses"
+        },
+        "sentiment": {
+          "score": 50,
+          "sentiment": "neutral",
+          "positive_words": 0,
+          "negative_words": 0
+        },
+        "contradiction": {
+          "confidence_score": 85,
+          "contradiction_count": 1,
+          "details": "1 contradiction(s)"
+        },
+        "stress": {
+          "confidence_score": 94,
+          "filler_count": 2,
+          "short_answer_penalty": 0,
+          "negative_words": 0,
+          "stress_words": 0,
+          "details": "2 fillers, 0 short penalty, 0 negatives"
+        }
+      },
+      "evaluated_at": "2026-04-16T13:09:25.062397"
+    }
+  ]
+}
