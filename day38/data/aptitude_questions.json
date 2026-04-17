@@ -1,0 +1,89 @@
+{
+  "reasoning": [
+    {
+      "id": "R1",
+      "question": "If all Bloops are Razzies and all Razzies are Lazzies, then all Bloops are definitely Lazzies. True or False?",
+      "ideal_keywords": [
+        "true",
+        "definitely",
+        "all",
+        "bloops",
+        "lazzies"
+      ],
+      "expected_logic": "transitive property",
+      "score_weight": 1.0
+    },
+    {
+      "id": "R2",
+      "question": "A train travels 60 km in 1 hour. How long will it take to travel 150 km at the same speed?",
+      "ideal_keywords": [
+        "2.5",
+        "hours",
+        "150/60",
+        "speed",
+        "constant"
+      ],
+      "expected_logic": "ratio and proportion",
+      "score_weight": 1.0
+    },
+    {
+      "id": "R3",
+      "question": "Complete the series: 2, 6, 12, 20, ?",
+      "ideal_keywords": [
+        "30",
+        "pattern",
+        "difference",
+        "increasing"
+      ],
+      "expected_logic": "difference increases by 2 each time",
+      "score_weight": 1.0
+    }
+  ],
+  "situational": [
+    {
+      "id": "S1",
+      "question": "You have two important deadlines tomorrow, but you can only complete one today. What do you do?",
+      "ideal_keywords": [
+        "prioritize",
+        "deadline",
+        "communicate",
+        "manager",
+        "team",
+        "delegate"
+      ],
+      "expected_logic": "prioritization + communication",
+      "score_weight": 1.0
+    },
+    {
+      "id": "S2",
+      "question": "A team member is consistently late with their work, affecting the whole team. How do you handle it?",
+      "ideal_keywords": [
+        "talk",
+        "private",
+        "understand",
+        "reason",
+        "support",
+        "deadline",
+        "escalate"
+      ],
+      "expected_logic": "one-on-one discussion + offer help + escalate if needed",
+      "score_weight": 1.0
+    },
+    {
+      "id": "S3",
+      "question": "You discover a critical bug in a product that is about to be released. What steps do you take?",
+      "ideal_keywords": [
+        "assess",
+        "severity",
+        "report",
+        "manager",
+        "team",
+        "fix",
+        "delay",
+        "communication"
+      ],
+      "expected_logic": "assess impact \u2192 report to manager \u2192 discuss with team \u2192 propose fix \u2192 communicate to stakeholders",
+      "score_weight": 1.0
+    }
+  ]
+}

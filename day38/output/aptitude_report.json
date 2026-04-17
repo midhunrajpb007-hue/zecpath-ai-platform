@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-04-17T21:52:21.561902",
+  "aptitude_score": 70.46,
+  "problem_solving_clarity": 85.0,
+  "questions_answered": 6,
+  "breakdown": [
+    {
+      "question_id": "R1",
+      "type": "reasoning",
+      "question": "If all Bloops are Razzies and all Razzies are Lazzies, then all Bloops are definitely Lazzies. True or False?",
+      "answer": "True, because if all Bloops are Razzies and all Razzies are Lazzies, then Bloops are Lazzies.",
+      "score": 71.0,
+      "clarity_score": 85,
+      "expected_logic": "transitive property"
+    },
+    {
+      "question_id": "R2",
+      "type": "reasoning",
+      "question": "A train travels 60 km in 1 hour. How long will it take to travel 150 km at the same speed?",
+      "answer": "First, find speed = 60 km/h. Then time = distance/speed = 150/60 = 2.5 hours.",
+      "score": 64.0,
+      "clarity_score": 70,
+      "expected_logic": "ratio and proportion"
+    },
+    {
+      "question_id": "R3",
+      "type": "reasoning",
+      "question": "Complete the series: 2, 6, 12, 20, ?",
+      "answer": "The differences are 4,6,8 so next difference is 10, so next number is 30.",
+      "score": 43.0,
+      "clarity_score": 85,
+      "expected_logic": "difference increases by 2 each time"
+    },
+    {
+      "question_id": "S1",
+      "type": "situational",
+      "question": "You have two important deadlines tomorrow, but you can only complete one today. What do you do?",
+      "answer": "First, I would assess which deadline is more critical. Then I would communicate with my manager to reprioritize. I would also see if I can delegate some tasks.",
+      "score": 89.33,
+      "clarity_score": 95,
+      "expected_logic": "prioritization + communication"
+    },
+    {
+      "question_id": "S2",
+      "type": "situational",
+      "question": "A team member is consistently late with their work, affecting the whole team. How do you handle it?",
+      "answer": "I would have a private conversation to understand the reason. Then offer support and set clear expectations. If it continues, escalate to manager.",
+      "score": 74.43,
+      "clarity_score": 95,
+      "expected_logic": "one-on-one discussion + offer help + escalate if needed"
+    },
+    {
+      "question_id": "S3",
+      "type": "situational",
+      "question": "You discover a critical bug in a product that is about to be released. What steps do you take?",
+      "answer": "First, assess severity. Then immediately inform the team and manager. Discuss a fix plan. If needed, delay release. Communicate with stakeholders.",
+      "score": 81.0,
+      "clarity_score": 80,
+      "expected_logic": "assess impact \u2192 report to manager \u2192 discuss with team \u2192 propose fix \u2192 communicate to stakeholders"
+    }
+  ],
+  "interpretation": "Good logical reasoning, some room for improvement"
+}
