@@ -1,0 +1,30 @@
+
+CANDIDATE: Midhun Raj (ID: C001)
+ROLE: Software Engineer
+OVERALL SCORE: 68.15% (Good)
+
+STRENGTHS:
+• Strong communication skills (fluent, clear vocabulary)
+• High confidence in responses (no hesitation, positive tone)
+• Good problem-solving clarity (structured answers)
+• Excellent grammar usage
+• Relevant experience mentioned
+
+WEAKNESSES:
+• Answers sometimes missed key expected information
+• Some contradictory statements detected
+
+CULTURAL FIT:
+• Team-oriented – mentions collaboration
+
+RISK FLAGS:
+• No significant risks identified
+
+INCONSISTENCIES:
+• No clear inconsistencies detected
+
+SUMMARY:
+Candidate performed good in HR interview. Communication and confidence are strong, but relevance and aptitude have room for improvement.
+
+RECOMMENDATION:
+Keep in review queue for another round.

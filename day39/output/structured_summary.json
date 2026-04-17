@@ -1,0 +1,32 @@
+{
+  "candidate_id": "C001",
+  "name": "Midhun Raj",
+  "role": "Software Engineer",
+  "generated_at": "2026-04-17T22:16:16.826742",
+  "overall_performance": {
+    "combined_score": 68.15,
+    "rating": "Good",
+    "summary": "Candidate performed good in HR interview. Communication and confidence are strong, but relevance and aptitude have room for improvement."
+  },
+  "strengths": [
+    "Strong communication skills (fluent, clear vocabulary)",
+    "High confidence in responses (no hesitation, positive tone)",
+    "Good problem-solving clarity (structured answers)",
+    "Excellent grammar usage",
+    "Relevant experience mentioned"
+  ],
+  "weaknesses": [
+    "Answers sometimes missed key expected information",
+    "Some contradictory statements detected"
+  ],
+  "cultural_fit": [
+    "Team-oriented – mentions collaboration"
+  ],
+  "risk_flags": [
+    "No significant risks identified"
+  ],
+  "inconsistencies": [
+    "No clear inconsistencies detected"
+  ],
+  "recommendation": "Keep for review"
+}
