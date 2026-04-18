@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-04-18T12:07:53.205640",
+  "summary": {
+    "total_candidates": 4,
+    "matches": 4,
+    "accuracy": 100.0
+  },
+  "detailed_results": [
+    {
+      "candidate_type": "confident",
+      "candidate_name": "Confident Candidate",
+      "ai_score": 85.0,
+      "ai_decision": "shortlist",
+      "manual_decision": "shortlist",
+      "match": true,
+      "answers": [
+        "I have 5 years of experience in Python and React. I led a team of 4 developers.",
+        "My greatest strength is problem-solving and mentoring juniors.",
+        "I can join in 15 days.",
+        "I worked on a challenging project where we reduced API latency by 40%."
+      ]
+    },
+    {
+      "candidate_type": "hesitant",
+      "candidate_name": "Hesitant Candidate",
+      "ai_score": 41.25,
+      "ai_decision": "reject",
+      "manual_decision": "reject",
+      "match": true,
+      "answers": [
+        "Um, I have like some experience, maybe 2 years? I'm not sure.",
+        "I think my strength is... I don't know, maybe teamwork?",
+        "I can join... probably in 30 days? Not sure.",
+        "I don't remember any specific challenging project."
+      ]
+    },
+    {
+      "candidate_type": "inexperienced",
+      "candidate_name": "Inexperienced Candidate",
+      "ai_score": 52.5,
+      "ai_decision": "review",
+      "manual_decision": "review",
+      "match": true,
+      "answers": [
+        "I just graduated. I have done some Python in college.",
+        "I am good at learning new things quickly.",
+        "I can join immediately.",
+        "I haven't worked on any major projects, but I am eager to learn."
+      ]
+    },
+    {
+      "candidate_type": "overqualified",
+      "candidate_name": "Overqualified Candidate",
+      "ai_score": 78.75,
+      "ai_decision": "shortlist",
+      "manual_decision": "shortlist",
+      "match": true,
+      "answers": [
+        "I have 12 years of experience, including 5 years as a tech lead.",
+        "My strength is architecture design and team leadership.",
+        "I need a 60-day notice period.",
+        "I have led multiple high-impact projects, including a company-wide migration."
+      ]
+    }
+  ],
+  "inconsistencies": [],
+  "recommendations": [
+    "System already well-aligned with human evaluators"
+  ]
+}
