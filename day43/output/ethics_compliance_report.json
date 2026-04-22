@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-04-22T19:48:38.435905",
+  "consent_requirements": "\nCONSENT FORM \u2013 Zecpath AI Screening\n\nI, the undersigned, agree to the following:\n\n1. DATA COLLECTION\n   I consent to Zecpath collecting my resume, contact information, and responses during the AI screening call.\n\n2. RECORDING & ANALYSIS\n   I understand that my voice and video may be recorded and analyzed by AI for the purpose of evaluating my suitability for the role.\n\n3. DATA STORAGE\n   My data will be stored securely for up to 90 days (transcripts) and up to 365 days (scores). Raw resumes are deleted after 7 days.\n\n4. DATA SHARING\n   My data may be shared with the recruiting company for hiring decisions. It will not be sold to third parties.\n\n5. RIGHT TO ACCESS & DELETE\n   I have the right to request access to my data and ask for its deletion at any time.\n\n6. OPT-OUT\n   I understand that I can withdraw my consent at any time by contacting privacy@zecpath.com.\n\nBy continuing with the screening, I agree to the above terms.\n",
+  "fairness_review": {
+    "analysis_performed": true,
+    "demographic_attributes_masked": [
+      "name",
+      "gender",
+      "age",
+      "address",
+      "religion",
+      "caste",
+      "nationality"
+    ],
+    "recommendation": "Continue monitoring for bias; current system shows no major disparity."
+  },
+  "bias_mitigation": {
+    "masking_applied": true,
+    "masked_fields": [
+      "name",
+      "gender",
+      "age",
+      "address",
+      "religion",
+      "caste",
+      "nationality"
+    ]
+  },
+  "explainability": {
+    "feature_importance": "Available per candidate",
+    "sample_explanation": "The candidate received a final score of 78% based on:\n- Ats: 85%\n- Screening: 75%\n- Hr: 70%\nThe most influential factor was ats."
+  },
+  "compliance_readiness": {
+    "data_collection_consent": "Implemented",
+    "recording_consent": "Implemented",
+    "data_retention_policy": {
+      "raw_resumes": 7,
+      "parsed_profiles": 30,
+      "transcripts": 90,
+      "scores": 365,
+      "audit_logs": 1095
+    },
+    "right_to_access": "Available (via API)",
+    "right_to_deletion": "Available",
+    "audit_logs": "Enabled",
+    "bias_review": "Conducted",
+    "explainability": "Provided"
+  },
+  "data_retention_policy_days": {
+    "raw_resumes": 7,
+    "parsed_profiles": 30,
+    "transcripts": 90,
+    "scores": 365,
+    "audit_logs": 1095
+  }
+}
