@@ -1,0 +1,22 @@
+{
+  "software_engineer": {
+    "ats_weight": 0.4,
+    "screening_weight": 0.3,
+    "hr_weight": 0.3
+  },
+  "data_scientist": {
+    "ats_weight": 0.35,
+    "screening_weight": 0.35,
+    "hr_weight": 0.3
+  },
+  "marketing_manager": {
+    "ats_weight": 0.2,
+    "screening_weight": 0.3,
+    "hr_weight": 0.5
+  },
+  "fresher": {
+    "ats_weight": 0.3,
+    "screening_weight": 0.2,
+    "hr_weight": 0.5
+  }
+}

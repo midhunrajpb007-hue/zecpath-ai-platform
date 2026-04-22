@@ -1,0 +1,18 @@
+{
+  "candidate_id": "C001",
+  "candidate_name": "Midhun Raj",
+  "role": "software_engineer",
+  "weights_used": {
+    "ats_weight": 0.4,
+    "screening_weight": 0.3,
+    "hr_weight": 0.3
+  },
+  "component_scores": {
+    "ats_score": 96.5,
+    "screening_score": 78.0,
+    "hr_score": 67.16
+  },
+  "final_hiring_score": 82.15,
+  "recommendation": "Strong Hire",
+  "generated_at": "2026-04-22T11:23:04.471058"
+}
