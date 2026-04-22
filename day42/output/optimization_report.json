@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-04-22T11:53:25.450346",
+  "original_shortlist_threshold": 70,
+  "optimized_shortlist_threshold": 65,
+  "accuracy_after_tuning": 100.0,
+  "follow_up_stability": {
+    "max_attempts": 2,
+    "repetition_prevention": true
+  },
+  "scoring_anomalies": [],
+  "speed_optimizations": [
+    "cached text cleaning (LRU cache)"
+  ],
+  "transcript_cleanup_improvements": [
+    "filler word removal",
+    "contraction expansion",
+    "punctuation normalization"
+  ],
+  "recommendations": []
+}
