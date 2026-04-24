@@ -1,0 +1,48 @@
+openapi: 3.0.0
+info:
+  title: Zecpath HR Interview API
+  version: 1.0.0
+servers:
+  - url: https://api.zecpath.com/v1/hr
+paths:
+  /sessions:
+    post:
+      summary: Start interview
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                candidate_id: {type: string}
+                job_id: {type: string}
+                role: {type: string}
+      responses:
+        '200': {description: OK}
+  /sessions/{session_id}/answer:
+    post:
+      summary: Submit answer
+      parameters:
+        - name: session_id
+          in: path
+          required: true
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                answer: {type: string}
+      responses:
+        '200': {description: OK}
+  /sessions/{session_id}/score:
+    get:
+      summary: Get final score
+      parameters:
+        - name: session_id
+          in: path
+          required: true
+      responses:
+        '200': {description: OK}
