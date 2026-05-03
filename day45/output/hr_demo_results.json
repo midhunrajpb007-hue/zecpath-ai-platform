@@ -1,0 +1,42 @@
+[
+  {
+    "candidate_id": "C1001",
+    "scores": {
+      "communication": 70.0,
+      "confidence": 80.0,
+      "aptitude": 65.0,
+      "hr": 60.0
+    },
+    "final_score": 68.5,
+    "decision": "Consider",
+    "summary": {
+      "strengths": [
+        "Confident responses"
+      ],
+      "weaknesses": [],
+      "risks": [],
+      "cultural_fit": "Needs review"
+    },
+    "evaluated_at": "2026-05-03T19:47:29.719632"
+  },
+  {
+    "candidate_id": "C1002",
+    "scores": {
+      "communication": 60.0,
+      "confidence": 80.0,
+      "aptitude": 57.5,
+      "hr": 60.0
+    },
+    "final_score": 64.5,
+    "decision": "Consider",
+    "summary": {
+      "strengths": [
+        "Confident responses"
+      ],
+      "weaknesses": [],
+      "risks": [],
+      "cultural_fit": "Needs review"
+    },
+    "evaluated_at": "2026-05-03T19:47:29.720343"
+  }
+]
