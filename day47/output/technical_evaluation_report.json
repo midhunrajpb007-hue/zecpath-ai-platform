@@ -1,0 +1,88 @@
+{
+  "candidate_id": "C1001",
+  "overall_technical_score": 61.94,
+  "skill_wise_breakdown": {
+    "programming_basics": 57.8,
+    "api_design": 67.47,
+    "system_design": 61.25
+  },
+  "detailed_results": [
+    {
+      "answer": "A variable is a container for storing data values. In Python, you don't need to declare type. For ex",
+      "question_type": "conceptual",
+      "difficulty": "basic",
+      "component_scores": {
+        "accuracy": 77.5,
+        "depth_explanation": 65.0,
+        "logical_reasoning": 55.0,
+        "real_world_applicability": 44.0
+      },
+      "raw_score": 64.22,
+      "normalized_score": 57.8,
+      "shallowness": "deep",
+      "details": {
+        "word_count": 31,
+        "has_step_indicators": false
+      },
+      "skill": "programming_basics"
+    },
+    {
+      "answer": "REST uses HTTP methods like GET, POST, PUT, DELETE. GraphQL allows clients to request exactly what t",
+      "question_type": "practical",
+      "difficulty": "intermediate",
+      "component_scores": {
+        "accuracy": 82.5,
+        "depth_explanation": 60.0,
+        "logical_reasoning": 62.5,
+        "real_world_applicability": 54.0
+      },
+      "raw_score": 67.47,
+      "normalized_score": 67.47,
+      "shallowness": "deep",
+      "details": {
+        "word_count": 39,
+        "has_step_indicators": false
+      },
+      "skill": "api_design"
+    },
+    {
+      "answer": "To scale a service to millions of users, you need horizontal scaling (add more servers), load balanc",
+      "question_type": "system_design",
+      "difficulty": "advanced",
+      "component_scores": {
+        "accuracy": 85.0,
+        "depth_explanation": 60.0,
+        "logical_reasoning": 65.0,
+        "real_world_applicability": 65.5
+      },
+      "raw_score": 70.58,
+      "normalized_score": 77.63,
+      "shallowness": "deep",
+      "details": {
+        "word_count": 38,
+        "has_step_indicators": false
+      },
+      "skill": "system_design"
+    },
+    {
+      "answer": "I don't know, maybe use more servers? Not sure.",
+      "question_type": "conceptual",
+      "difficulty": "basic",
+      "component_scores": {
+        "accuracy": 65.0,
+        "depth_explanation": 35.0,
+        "logical_reasoning": 50.0,
+        "real_world_applicability": 44.0
+      },
+      "raw_score": 49.85,
+      "normalized_score": 44.87,
+      "shallowness": "deep",
+      "details": {
+        "word_count": 9,
+        "has_step_indicators": false
+      },
+      "skill": "system_design"
+    }
+  ],
+  "generated_at": "2026-05-05T10:45:34.877551"
+}
