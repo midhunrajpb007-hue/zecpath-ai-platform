@@ -1,0 +1,56 @@
+{
+  "root": {
+    "introduction": [
+      "Tell me about your technical background.",
+      "What technologies are you most comfortable with?"
+    ]
+  },
+  "experience_based": {
+    "fresher": {
+      "basics": [
+        "What is a variable?",
+        "Explain the difference between stack and heap."
+      ]
+    },
+    "mid": {
+      "intermediate": [
+        "Explain the difference between REST and GraphQL.",
+        "How do you handle database transactions?"
+      ]
+    },
+    "senior": {
+      "advanced": [
+        "Design a URL shortener system.",
+        "How would you scale a service to millions of users?"
+      ]
+    }
+  },
+  "conceptual": {
+    "basic": [
+      "What is OOP?",
+      "Define polymorphism."
+    ],
+    "intermediate": [
+      "Explain SOLID principles.",
+      "What is dependency injection?"
+    ],
+    "advanced": [
+      "Compare microservices vs monolith.",
+      "Discuss eventual consistency."
+    ]
+  },
+  "scenario": {
+    "basic": [
+      "Debug a simple function.",
+      "Write a query to get top 5 products."
+    ],
+    "intermediate": [
+      "Design a task scheduler.",
+      "Optimize a slow API endpoint."
+    ],
+    "advanced": [
+      "Handle a data inconsistency across services.",
+      "Design a real-time chat system."
+    ]
+  }
+}
